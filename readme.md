@@ -5,10 +5,11 @@
 * 姓名: 苏畅
 * 性别: 男
 * 院校: 北京林业大学信息学院网络工程专业
+* 主修课程: 网路编程 unix环境编程 数据结构 等
 * 毕业时间: 2020年6月
 * 邮箱: sam.suchang@qq.com
 * 手机: 15311070339
-* 求职意向: 后台开发 go c++ 均可, 接受转rust和java, 最好是广告或者基础设施相关
+* 求职意向: 后台开发 go c++ 均可, 接受转rust和java, 广告或基础设施相关业余最佳 
 
 
 ## 实习经验
@@ -37,7 +38,7 @@
 
 * 编程语言: 熟练掌握Python和其C/C++拓展开发, 掌握 Golang, JavaScript 和 Morden C++ 
 
-* Web后端: 熟练掌握 MySQL 和 redis (了解内部机制),
+* Web后端: 熟练掌握 MySQL 和 redis,
           了解 Nginx, kafka,  docker, thirft
           有良好的架构设计意识
 * Web前端: 熟练掌握Vue 了解React 拥有全栈开发的能力
