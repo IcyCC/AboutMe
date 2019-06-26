@@ -7,7 +7,7 @@
 * 毕业时间: 2020年6月
 * 邮箱: sam.suchang@qq.com
 * 手机: 15311070339
-* 求职意向: 后台开发 go c++ 均可, 接受转rust和java, 广告或基础设施相关业务最佳
+* 求职意向: 后台开发 Go C++ 均可, 接受转 Rust 和 Java
 
 # 实习经验
 
@@ -50,8 +50,8 @@
 
 > https://github.com/IcyCC/reimu
 
-* 简介: 一个使用 Morden cpp 的 Reactro 的 linux 网络框架
-* 关键词: C++ Socket poll 多线程 并发
+* 简介: 一个使用 Morden C++ 的 Reactor 的 linux 网络框架
+* 关键词: C++ Socket Poll io复用 多线程 并发
 * 工作:  
     1. 基于 poll + Eventloop + 线程池的模式, 实现对 tcp的客户端\服务端 和 定时任务 的并发编程的完善的封装.
     2. 编写SafeQueue, 并基于此实现了线程池， 将用户的操作放入线程池中操作.
