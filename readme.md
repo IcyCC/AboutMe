@@ -106,10 +106,6 @@
 
 # 校园经历
 
-## 主修课程
-
-网络编程, 交换路由, C/C++程序设计, unix环境编程, 数据结构, 计算机网络, 网络安全 等
-
 ## 课程设计
 
 * [分布式霸道选举算法+基于Eventloop和morden cpp的网络库](https://github.com/IcyCC/bully_algo)
