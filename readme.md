@@ -34,11 +34,11 @@
 
 * 编程语言: 熟练掌握Python和其C/C++拓展开发, 掌握 Golang, JavaScript 和 Morden C++ 
 
-* Web后端: 熟练掌握 MySQL 和 redis,
-          了解 Nginx, kafka,  docker, thirft
+* Web后端: 熟练掌握 MySQL 和 Redis,
+          了解 Nginx, Kafka,  Docker, Thirft
           有良好的架构设计意识
 * Web前端: 熟练掌握Vue 了解React 拥有全栈开发的能力
-* 计算机网络: 熟练掌握HTTP协议, 了解TCP/IP协议 和 Socket编程 和 常见的并发模型  
+* 计算机网络: 熟练掌握HTTP协议, 了解TCP/IP协议 , Socket编程 和 常见的并发模型 
 * 计算机科学常识: 熟练掌握常见的算法以及数据结构,
 了解unix操作系统及其环境编程, 
 了解常见的网络安全攻击手段
