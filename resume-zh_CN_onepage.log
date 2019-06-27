@@ -1,0 +1,32 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.6.27)  27 JUN 2019 18:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/suchang/Documents/AboutMe/resume-zh_CN_onepage
+(/Users/suchang/Documents/AboutMe/resume-zh_CN_onepage.tex
+LaTeX2e <2018-12-01>
+
+! LaTeX Error: File `resume.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+/Users/suchang/Documents/AboutMe/resume-zh_CN_onepage.tex:6: Emergency stop.
+<read *> 
+         
+l.6 \usepackage
+               {zh_CN-Adobefonts_external} % Simplified Chinese Support usin...
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 492916
+ 244 string characters out of 6133345
+ 64431 words of memory out of 5000000
+ 4162 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 10i,0n,8p,183b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
