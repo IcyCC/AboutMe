@@ -1,0 +1,94 @@
+  % !TEX TS-program = xelatex
+  % !TEX encoding = UTF-8 Unicode
+  % !Mode:: "TeX:UTF-8"
+
+  \documentclass{resume}
+  \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+  % \usepackage{NotoSansSC_external}
+  % \usepackage{NotoSerifCJKsc_external}
+  % \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+  \usepackage{linespacing_fix} % disable extra space before next section
+  \usepackage{cite}
+
+  \begin{document}
+  \pagenumbering{gobble} % suppress displaying page number
+
+  \name{苏畅}
+
+  \basicInfo{
+    \email{sam.suchang@qq.com} \textperiodcentered\ 
+    \phone{(+86) 153-1107-0339} \textperiodcentered\ 
+    \faGithub{https://github.com/IcyCC}}
+
+  \section{\faGraduationCap\  教育背景}
+  \datedsubsection{\textbf{北京林业大学}, 北京}{2016 -- 至今}
+  \textit{在读本科生}\ \quad  网络工程专业, 预计 2020 年 9 月毕业 \\
+  \textit{高分课程}\  \quad  程序设计基础: 97 \quad C++程序设计:92 \quad 	计算机网络: 92 \quad UNIX环境程序设计:87
+
+  \section{\faUsers\ 实习}
+  \datedsubsection{\textbf{知乎}}{2018-05-2018.9}
+  \role{实习后端工程师}{社区事业部-内容}
+  \textbf{工作内容} \quad 负责ops内容标注平台的前后端 和 ops 接入工具的开发
+
+  \datedsubsection{\textbf{木瓜移动}}{2018-05-2018.9}
+  \role{实习后端工程师}{木瓜广告}
+  \textbf{工作内容} \quad 负责广告采集脚本的优化, 广告运用后台的开发优化, DSP 供应方平台接口接入
+
+
+  \section{\faBook\ 个人项目}
+
+  \datedsubsection{\textbf{Reimu -- 基于 Reactor 模式的多线程 Morden C++ 网络库}}{\faGithub https://github.com/IcyCC/reimu}
+  \role{C++\ Socket\ 并发\ io复用}{}
+  \begin{onehalfspacing}
+  \textbf{项目介绍}：\c 一个基于SafeQueue做线程同步的Poll+EventLoop+线程池的并发网络库, 使用了Buffer+Slice机制优化了字符串拷贝. 
+  \end{onehalfspacing}
+
+  \datedsubsection{\textbf{WhParser -- 一个支持类文华财经语法 dsl 的量化交易框架}}{}
+  \role{Python\ Cython
+  Ply}{商业项目}
+  \begin{onehalfspacing}
+  \textbf{项目介绍}：\quad 基于开源回测框架进行修改, 在其基础之上支持了使用类似文华财经语法的DSL进行交易略的编写, 接入了处理后自有数据源使其可以支持
+  分钟级别和夜盘的期货回测, 接入了CTP接口进行实盘相关开发.
+  \end{onehalfspacing}
+
+
+  \datedsubsection{\textbf{AsyncEasyapi -- 快速后端增删改查API工具}}{\faGithub https://github.com/IcyCC/async\_easyapi}
+  \role{Python C++ Cython Ply}{个人项目}
+  \begin{onehalfspacing}
+  \textbf{项目介绍}：\quad 基于元类的Python效率提升工具, 可通过继承几个类快速实现后端Api的开发, 已经在多个个人生产项目中采用
+  \end{onehalfspacing}
+
+  \section{\faObjectGroup 团队项目}
+  \datedsubsection{\textbf{北京林业大学督导系统v2.0}}{\textbf{项目负责人} \  团队规模 3人}
+  \role{Python Vue Redis Kafka Mysql Mongodb, Gevent}{商业项目}
+  \begin{onehalfspacing}
+    \textbf{项目介绍}：\quad 基于老版本系统在在前后端分离和模块解耦升级, 并且设计了基于MongoDB的动态问卷和效果很好的数据报告渲染系统
+  \end{onehalfspacing}
+
+  \datedsubsection{\textbf{傲禾智能测土配肥系统}}{\textbf{项目负责人} \  团队规模 3人 }
+  \datedsubsection{\textbf{航空农林喷洒智能监控与面积计量系统}}{\textbf{项目负责人} \  团队规模 4人 }
+  \datedsubsection{\textbf{微信日历小程序}}{\textbf{项目负责人} \  团队规模 4人 }
+
+  \section{\faRssSquare 博客和GitHub}
+  % increase linespacing [parsep=0.5ex]
+  \begin{itemize}[parsep=0.5ex]
+    \item 知乎: https://www.zhihu.com/people/su-chang-60-5/posts
+    \item GitHub: https://github.com/IcyCC
+  \end{itemize}
+
+  \section{\faCogs\ 个人技能}
+  % increase linespacing [parsep=0.5ex]
+  \begin{itemize}[parsep=0.5ex]
+    \item 编程语言: 熟练掌握Python, 了解其C/C++拓展开发的常用方案.较为熟悉 Morden C++, 熟悉 Golang, JavaScript.
+    \item Web后端:熟练掌握 MySQL 和 Redis,
+    了解 Nginx, Kafka,  Docker, gRpc
+    有良好的架构设计意识
+    \item Web前端: 熟练掌握Vue 了解React 拥有\textbf{全栈开发}的能力
+    \item 计算机网络: 掌握HTTP协议, 了解TCP/IP协议 , Socket编程 和 常见的并发模型 
+    \item 计算机科学常识: 熟练掌握常见的算法以及数据结构,
+    了解unix操作系统及其环境编程, 
+    了解常见的网络安全攻击手段
+  \end{itemize}
+
+
+  \end{document}
