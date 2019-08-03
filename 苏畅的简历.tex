@@ -21,13 +21,10 @@
   \faGithub{https://github.com/IcyCC}\textperiodcentered\ 
   \faEye{C++/Go后台开发}
   }
-  
-
 
  \section{\faGraduationCap\  教育背景}
 \datedsubsection{\textbf{北京林业大学}, 北京}{2016 -- 至今}
-\textit{在读本科生}\ \quad  网络工程专业, 预计 2020 年 9 月毕业 \\
-\textit{高分课程}\  \quad  程序设计基础: 97 \quad C++程序设计:92 \quad 	计算机网络: 92 \quad UNIX环境程序设计:87
+\textit{在读本科生}\ \quad  网络工程专业, 预计 2020 年 9 月毕业 
 
 \section{\faUsers\ 实习经历}
 \datedsubsection{\textbf{知乎}}{2018.06-2018.09}
@@ -41,52 +38,44 @@
 \section{\faCogs\ 个人技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: 熟练掌握Python, 了解其C/C++拓展开发.较为熟悉 Morden C++, 熟悉 Golang, JavaScript.
-  \item Web后端:熟练掌握 MySQL 和 Redis,
-  了解 Nginx, Kafka,  Docker
-  有良好的架构设计意识
-  \item Web前端: 熟练掌握Vue 了解React 拥有\textbf{全栈开发}的能力
-  \item 计算机网络: 掌握HTTP协议, 了解TCP/IP协议 , Socket编程 和 常见的并发模型 
-  \item 计算机科学常识: 熟练掌握常见的算法以及数据结构,
-  了解Unix及其环境编程, 
-  了解常见的网络安全知识
+    \item 熟练掌握 Python, 作为主力语言开发多个商业项目, 并对其虚拟机有一点了解, 有其 C/C++ 拓展开发经验
+    \item 较为熟悉 C++, 了解 C++ 的新特性并在个人项目中实践
+    \item 拥有全栈开发和架构设计能力,熟悉Python和Go的 web 开发和vue前端, 主导开发过5+个商业项目
+    \item 有并发网络编程经验, 熟悉 Reactor模型, 了解过多个网络库的设计并在 unix 下实现过网络库
+    \item 熟悉 MySQL, 了解 Redis 的设计原理
+    \item 熟悉 常用数据结构及算法, 熟悉常见网络安全的知识, 曾自己编写的加密算法实现一个简单的 SSL
 \end{itemize}
 
 \section{\faBook\ 个人成果}
-
 \datedsubsection{\textbf{Reimu -- 基于 Reactor 模式的多线程 Morden C++ 网络库}}{\faGithub https://github.com/IcyCC/reimu}
-\role{C++\ Socket\ 并发\ io复用}{}
+\role{C++, Socket, 并发, io复用, Reactor模型}{}
 \begin{onehalfspacing}
-\textbf{项目介绍}：\c 为学习C++网络编程, 实现了一个基于SafeQueue做线程同步的Poll+EventLoop+线程池的并发网络库, 并设计了Buffer+Slice机制优化了字符串拷贝, 学习到了C++网络编程中
-所需要的各种细节知识.
+\textbf{项目介绍}：\c 为学习C++网络编程,所编写的一个 Reactor 模式的并发网络库, 基于 SafeQueue 做多线程的同步, 加入了自己的一些思考
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{AsyncEasyapi -- 快速后端增删改查API工具}}{\faGithub https://github.com/IcyCC/async\_easyapi}
+\role{Python,Asyncio,Flask,Sqlalchemy, 元编程}{}
+\begin{onehalfspacing}
+\textbf{项目介绍}：\quad 为了提升重复业务的开发效率, 基于Python的元类编写的效率提升工具, 可通过10 行代码完成一个单表 curd 的 API, 并约定了错误处理, 权限处理等流程的规范
 \end{onehalfspacing}
 
 \datedsubsection{\textbf{WhParser -- 一个支持类文华财经语法 dsl 的量化交易框架}}{}
-\role{Python\ Cython
- Ply}{商业项目}
+\role{Python\ Cython Ply}{商业项目}
 \begin{onehalfspacing}
-\textbf{项目介绍}：\quad 基于开源回测框架进行修改, 在其基础之上支持了使用类似文华财经语法的DSL进行交易略的编写, 接入了处理后自有数据源使其可以支持
-分钟级别和夜盘的期货回测, 接入了CTP接口进行实盘相关开发.
-\end{onehalfspacing}
-
-
-\datedsubsection{\textbf{AsyncEasyapi -- 快速后端增删改查API工具}}{\faGithub https://github.com/IcyCC/async\_easyapi}
-\role{Python Asyncio Flask Sqlalchemy}{}
-\begin{onehalfspacing}
-\textbf{项目介绍}：\quad 为了提升平常业务开发的开发效率, 基于Python的元类编写了这个效率提升工具, 可通过继承几个类实现后端Api的快速开发, 已经在多个个人生产项目中采用.
-\end{onehalfspacing}
+\textbf{项目介绍}：\quad 一个期货量化回测框架, 接入上期 CTP交易接口, 支持类似文化财经语法的 DSL. 使用 pybind11 和 cython 进行Python/C++ 混合开发
+\end{onehalfspacing} 
 
 \datedsubsection{\textbf{知乎文章}}{https://www.zhihu.com/people/su-chang-60-5/posts}
-
 \section{\faObjectGroup 团队项目}
-\datedsubsection{\textbf{北京林业大学督导系统v2.0}}{\textbf{项目负责人} \  团队规模 3-6人}
+\datedsubsection{\textbf{北京林业大学督导系统}}{\textbf{项目负责人} \  团队规模 3-6人}
 \role{Python Vue Redis Kafka Mysql Mongodb, Gevent}{商业项目}
 \begin{onehalfspacing}
-  \textbf{项目介绍}：\quad 为了解决老版本系统难以维护的问题, 基于老版本系统在前后端分离和\textbf{模块解耦}方面做了升级, 设计并增加了\textbf{动态问卷}和\textbf{教学质量报告渲染}的功能, 方便了之后的人进行维护
+  \textbf{项目介绍}：\quad 为解决老版本系统难以维护的问题, 基于老版本在前后端分离和\textbf{模块解耦}方面做了升级, 设计并增加了\textbf{动态问卷}和\textbf{教学质量报告渲染}的功能, 方便了之后的人进行维护, 现在该系统已负责全校的督导教评业务
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{傲禾智能测土配肥系统 \textsl{ \mdseries{golang,electron} } }}{\textbf{项目负责人} \  团队规模 3人 }
-\datedsubsection{\textbf{航空农林喷洒智能监控与面积计量系统 \textsl{ \mdseries{python,vue, baidumap} } }}{\textbf{项目负责人} \  团队规模 4人 }
-\datedsubsection{\textbf{微信日历小程序 \textsl{ \mdseries{python,小程序} }}}{\textbf{项目负责人} \  团队规模 4人 }
-
+\datedsubsection{\textbf{傲禾智能测土配肥系统 }}{\textbf{项目负责人} \  团队规模 3人 }
+\role{Golang, Gin, ELectron, libffi}{商业项目}
+\begin{onehalfspacing}
+  \textbf{项目介绍}：\quad 用于测土配肥的程序,golang做服务器后端, 客户端通过调用dll驱动 PLC 控制配肥流程,  并进行客户,消费,土地,加盟店等信息的管理, 现已经在全国近百家加盟店中投入使用.
+\end{onehalfspacing}
 \end{document}
